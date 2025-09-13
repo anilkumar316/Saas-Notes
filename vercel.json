@@ -1,15 +1,1 @@
-{
-  "version": 2,
-  "rewrites": [
-    {
-      "source": "/health",
-      "destination": "/api/health"
-    }
-  ],
-  "build": {
-    "env": {
-      "DATABASE_URL": "postgresql://postgres:Navriti@db.mqnhcutmlllfkekhubrr.supabase.co:5432/postgres",
-      "JWT_SECRET": "@JWT_SECRET"
-    }
-  }
-}
+
