@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/health",
+      "destination": "/api/health"
+    }
+  ],
+  "build": {
+    "env": {
+      "DATABASE_URL": "@DATABASE_URL",
+      "JWT_SECRET": "@JWT_SECRET"
+    }
+  }
+}
