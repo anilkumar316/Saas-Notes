@@ -8,7 +8,7 @@
   ],
   "build": {
     "env": {
-      "DATABASE_URL": "@DATABASE_URL",
+      "DATABASE_URL": "postgresql://postgres:Navriti@db.mqnhcutmlllfkekhubrr.supabase.co:5432/postgres",
       "JWT_SECRET": "@JWT_SECRET"
     }
   }
